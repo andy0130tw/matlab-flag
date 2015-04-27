@@ -5,6 +5,9 @@ Andy Pan, Andy Nien, Yun-Lin Ho
 A team assignment of Math Software 2015 Spring.<br/>
 Written by Team 04.
 
+## Demo
+![screenshot](screenshot.jpg)
+
 ## Some APIs
   1. `rotate(x, y, theta, a, b)`: Rotate point(s) `(x, y)` with respect to point `(a,b)` by the angle of `theta` ccw-ly.
   2. `drawRectangle(x1, x2, x3, color)`: Calculate `x4` and use the four points to draw a rectangle. Actually it can be used to draw parallelogram.
