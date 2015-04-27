@@ -217,9 +217,9 @@ function drawFlagKorea()
 
   p0 = [72, 48];
   [xx, yy] = rotate(96, 48, -dig, 72, 48);
-  drawHemiCircle(p0, [xx, yy], RED);
+  drawSemiCircle(p0, [xx, yy], RED);
   [xx, yy] = rotate(96, 48, pi - dig, 72, 48);
-  drawHemiCircle(p0, [xx, yy], BLUE);
+  drawSemiCircle(p0, [xx, yy], BLUE);
   
   pp = [cos(dig), -sin(dig)] * 12;
   drawCircle(p0 + pp, 12, BLUE);

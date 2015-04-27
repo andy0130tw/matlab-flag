@@ -1,4 +1,4 @@
-function drawHemiCircle( O,x1,color )
+function drawSemiCircle( O,x1,color )
   %   DRAWHEMICIRCLE 
   %   variable dictionary
   %   O     center
