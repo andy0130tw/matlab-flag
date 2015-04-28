@@ -225,7 +225,7 @@ function drawFlagKorea()
   drawCircle(p0 + pp, 12, BLUE);
   drawCircle(p0 - pp, 12, RED);
 
-  brk = [1, 1, 1; 1, 0, 1; 0, 1, 0; 0, 0, 0];
+  brk = [0, 0, 0; 0, 1, 0; 1, 0, 1; 1, 1, 1];
   theta = [dig, pi / 2] * [-1, 1; 1, 1; 1, -1; -1, -1]';
   
   for i = 1:4
@@ -234,9 +234,9 @@ function drawFlagKorea()
       
       if brk(i, j)
         % break into two pieces instead for better view in small viewport
-        pcx = [1, 1, 1] * 65 + [-1, 1, 1] * 5;
+        pcx = [60, 71, 71];
         drawFlagKorenBar(pcx, pcy, theta(i));
-        drawFlagKorenBar(pcx + 14, pcy, theta(i));
+        drawFlagKorenBar(pcx + 13, pcy, theta(i));
       else
         pcx = [1, 1, 1] * 72 + [-1, 1, 1] * 12;
         drawFlagKorenBar(pcx, pcy, theta(i));
