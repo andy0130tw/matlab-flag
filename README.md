@@ -24,7 +24,7 @@ All colors specified in parameter `color` are 6-digits HEX colors like `#ABCDEF`
 ## List of flags
   1. France
   2. Iceland
-  3. England
+  3. ~~England~~ (should be United Kingdom)
   4. the USA
   5. Cook Islands
   6. China
